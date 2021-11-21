@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./searchbar.component.scss'],
 })
 export class SearchbarComponent implements OnInit {
+  
   constructor(private router: Router) {}
 
   ngOnInit(): void {}
